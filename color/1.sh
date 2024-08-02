@@ -1,7 +1,8 @@
-#!/bin/bash 
+#!/bin/bash
 
-
-
+# Define red color code
 RED='\033[0;31m'
-rest='\033[0m'
-echo -e "${red} this text is red color  ${rest}"
+NC='\033[0m' # No Color
+
+# Print message in red
+echo -e "${RED}This is red text${NC}"
