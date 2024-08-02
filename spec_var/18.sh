@@ -2,7 +2,7 @@
 
 yum install nginx -y 
 
-if [ $? -ne o ]; then 
+if [ $? -eq 1 ]; then 
     echo "the command is failed"
 else 
     echo "installation is sucessfuly completed" 
