@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 
-if [ $(( $# -eq 1 )) ]; then 
+if [ $(( $# % 2 )) -eq 1 ]; then 
     echo "the here odd number of arguments" 
 else
     echo "the even number of arguments are provided" 
