@@ -11,7 +11,7 @@ if [ "$delete" == "all" ]; then
 else 
     echo "please enter the element index do you want to delete" 
     read index
-    if [ "$index" -gt "${#my_array[#]}" ]; then 
+    if [ "$index" -gt "${#my_array[@]}" ]; then 
         echo "you have enterred the length greater than the array length"
     else
         echo "deleteign the $index element" 
