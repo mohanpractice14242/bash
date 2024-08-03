@@ -17,6 +17,10 @@ else
         ((num--))
         ((count++))
     done
+    
+    for element in "$my_array[@]"; do 
+        echo "the element are $element"
+    done
 
 fi
 
