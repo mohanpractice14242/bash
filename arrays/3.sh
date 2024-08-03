@@ -11,6 +11,7 @@ if [ "$num" -eq 0 ]; then
     echo "all the elements are added to the aarray" 
 else
     while [ $num -gt 0 ]; do 
+        echo "you can add only $num elements" 
         echo "please enter $count elementt" 
         read element
         my_array+=("$element")
