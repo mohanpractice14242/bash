@@ -18,7 +18,7 @@ else
         ((count++))
     done
     
-    for element in "$my_array[@]"; do 
+    for element in "${my_array[@]}"; do 
         echo "the element are $element"
     done
 
