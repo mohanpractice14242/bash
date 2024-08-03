@@ -11,4 +11,4 @@ echo "the length of the array is ${#array[@]}"
 
 ##slicing the array 
 
-echo "the slicing the array is ${array[@]:1:2}
+echo "the slicing the array is ${array[@]:1:2}"
