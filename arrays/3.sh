@@ -7,7 +7,7 @@ echo "please enter the how many element s do you want"
 read num 
 count=0
 declare -a my_array
-if [ $num -eq 0 ]; then 
+if [ "$num" -eq 0 ]; then 
     echo "all the elements are added to the aarray" 
 else 
     echo "please enter the $count element" 
