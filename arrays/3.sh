@@ -9,11 +9,14 @@ count=0
 declare -a my_array
 if [ "$num" -eq 0 ]; then 
     echo "all the elements are added to the aarray" 
-else 
-    echo "please enter the $count element" 
-    read number 
-    my_array+=($number)
-    ((num--))
-    ((count++))
+else
+    while [ $num -gt 0 ]; do 
+        echo "please enter $count elementt" 
+        read element
+        my_array +=("$element")
+        ((num--))
+        ((count++))
+    done
+
 fi
 
