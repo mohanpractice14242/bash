@@ -15,4 +15,5 @@ else
     my_array+=($number)
     ((num--))
     ((count++))
+fi
 
