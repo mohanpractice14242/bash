@@ -13,7 +13,7 @@ else
     while [ $num -gt 0 ]; do 
         echo "please enter $count elementt" 
         read element
-        my_array +=("$element")
+        my_array +=($element)
         ((num--))
         ((count++))
     done
