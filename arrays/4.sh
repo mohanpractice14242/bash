@@ -8,7 +8,5 @@ array=("mohan" "vijay" "chiru" "nothing" "hofo")
 
 echo "the length of the array is ${#array[@]}"
 
+echo "The slicing of the array is ${array[@]:1:2}"
 
-##slicing the array 
-
-echo "the slicing the array is ${array[@]:1:2}"
