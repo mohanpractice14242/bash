@@ -7,5 +7,5 @@ for element in "${my_array[@]}"; do
 done 
 
 for i in "${!my_array[@]}";do 
-    echo "the $i element is $my_array[$i]"
+    echo "the $i element is ${my_array[$i]}"
 done
