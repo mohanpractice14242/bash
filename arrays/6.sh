@@ -5,7 +5,7 @@ my_array=("mohan" "chiru" "vijay")
 
 echo "do you want to delete all elements or only one element"
 read delete 
-if [ "$delete" -eq "all" ]; then 
+if [ "$delete" == "all" ]; then 
     echo "deleteign the all elements" 
     unset my_array 
 else 
