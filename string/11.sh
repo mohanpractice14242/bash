@@ -7,4 +7,4 @@ my_string="this is ht emaohan who are you"
 
 sub="who" 
 position=$(expr index "$my_string" "$sub")
-echo " the position of the string is " 
+echo " the position of the string is $position" 
