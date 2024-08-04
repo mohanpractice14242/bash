@@ -2,5 +2,5 @@
 
 first="hello"
 last="mohan"
-conacatinate="$first+$last" 
+conacatinate="$first,$last!" 
 echo "$conacatinate" 
