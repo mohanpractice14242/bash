@@ -1,7 +1,5 @@
-#!/bin/bash 
-
-
-my_array="  this is the mohan   " 
-trimmed=$(echo $my_string | xargs)
-echo "original string $my_string" 
-echo "trimmed string is $trimmed"
+#!/bin/bash
+my_string="   Hello, World!   "
+trimmed_string=$(echo $my_string | xargs)
+echo "Original: '$my_string'"
+echo "Trimmed: '$trimmed_string'"
