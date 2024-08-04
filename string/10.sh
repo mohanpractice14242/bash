@@ -9,3 +9,10 @@ if [[ $my_string == hello* ]]; then
 else 
     echo "the string is not starts with hello" 
 fi
+
+my_string1="hello this the mohan hello" 
+if [[ $my_string1 == *hello ]]; then 
+    echo "the string is endding with the hell" 
+else 
+    echo " the stirng is not ending with the hello" 
+fi
