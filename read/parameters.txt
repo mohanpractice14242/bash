@@ -1,0 +1,14 @@
+
+The read command in Bash is used to read a line of input from the user or from a file descriptor. It has several options that can modify its behavior. Here are all the parameters available for the read command:
+
+-a array: Read the data into an array.
+-d delim: Read until the first occurrence of delim, instead of newline.
+-e: Use Readline to obtain the line.
+-i text: Use text as the initial text for Readline.
+-n nchars: Read nchars characters rather than a whole line.
+-N nchars: Read exactly nchars characters, ignoring delimiters.
+-p prompt: Display prompt before reading input.
+-r: Do not allow backslashes to escape any characters.
+-s: Silent mode (do not echo input coming from a terminal).
+-t timeout: Time out and return failure if a complete line of input is not read within timeout seconds.
+-u fd: Read from file descriptor fd instead of the standard input.
