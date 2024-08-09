@@ -1,8 +1,8 @@
 #!/bin/bash 
 
 
-n=1 
-sum=0 
+n =1 
+sum =0 
 
 while [ $n -le 100 ]
 do 
