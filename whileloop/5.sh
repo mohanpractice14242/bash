@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-input=""
+input="start"
 while [ "$input" = "start" ]
 do 
     echo "process is stated" 
