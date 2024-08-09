@@ -4,7 +4,7 @@
 
 ##reading the file line by line 
 
-while true 
+while IFS= read -r line
 do 
     echo "$line" 
 done < "1.sh"
